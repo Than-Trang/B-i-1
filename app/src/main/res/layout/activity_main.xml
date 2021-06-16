@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:hint="NgayThang"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#222"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:hint="NhietDo"
+        android:textColorHint="#222"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edt1"
+        android:layout_marginTop="18dp"
+
+        />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt2"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+        android:text="update"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt2"
+        android:text="view"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt2"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentEnd="true"
+        android:text="add"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true" />
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ED9C82"
+        android:layout_below="@+id/btn1"
+        android:layout_marginTop="50dp"
+        />
+</RelativeLayout>
